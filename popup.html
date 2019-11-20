@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="popup.js"></script>
+  <style>
+    body {
+      width: 250px;
+      height: 130px;
+    }
+
+    .opswitch input {
+      display: block;
+      opacity: 0;
+      float: left;
+    }
+
+    .opswitch label {
+      width: 40px;
+      height: 15px;
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      background: rgb(189, 189, 189);
+      border-radius: 15px;
+      transition: background-color 0.4s;
+      -moz-transition: background-color 0.4s;
+      -webkit-transition: background-color 0.4s;
+    }
+
+    .opswitch label:after {
+      width: 15px;
+      height: 15px;
+      content: '';
+      position: absolute;
+      background: rgb(227, 222, 222);
+      border-radius: 10px;
+    }
+
+    .opswitch input:checked+label {
+      background: rgb(39, 173, 95);
+    }
+
+    .opswitch input:checked+label:after {
+      left: auto;
+      right: 0;
+    }
+    .oplabel {
+      font: normal 15px/40px Arial;
+    }
+
+    .opswitch p {
+      font: normal 15px/40px Arial;
+      color: rgb(189, 189, 189);
+      display: none;
+      letter-spacing: 1px;
+      margin: -30px -30px -30px 10px
+    }
+
+    .opswitch input:checked~p:nth-of-type(1) {
+      color: rgb(39, 173, 95);
+      display: inline-block;
+    }
+
+    .opswitch input:not(:checked)~p:nth-of-type(2) {
+      display: inline-block;
+    }
+    .zhc-sidebar .ex-hide {
+      visibility: hidden;
+      width: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <table id="toggles-table">
+    <tbody>
+      <tr>
+          <td class='oplabel'>Colour Issues:</td>
+          <td>
+            <section class="opswitch">
+              <input type="checkbox" id="cb-colourissue"/>
+              <label for="cb-colourissue"></label>
+              <p>Active</p>
+              <p>Off</p>
+            </section>
+          </td>
+        </tr>
+      <tr>
+        <td class='oplabel'>Hide Sidebar:</td>
+        <td>
+          <section class="opswitch">
+            <input type="checkbox" id="cb-hidesidebar"/>
+            <label for="cb-hidesidebar"></label>
+            <p>Active</p>
+            <p>Off</p>
+          </section>
+        </td>
+      </tr>
+      <tr>
+        <td class='oplabel'>Issue Summary:</td>
+        <td>
+          <section class="opswitch">
+            <input type="checkbox" id="cb-issuesummary"/>
+            <label for="cb-issuesummary"></label>
+
+            <p>Active</p>
+            <p>Off</p>
+          </section>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+  <p font-size="10px" style="color: grey; padding-bottom: 10px;">You need to reload the page to turn off issue summary!</p>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "Coloured zenboard",
+  "version": "1.0",
+  "description": "Add a colour to our zenboard! The colouring is not persisted, but it will be redrawn every 5 seconds. To stop, reload your page.",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["applyColours.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.ibm.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/funnel_colours16.png",
+    "32": "images/funnel_colours32.png",
+    "48": "images/funnel_colours48.png",
+    "128": "images/funnel_colours128.png"
+  },
+  "manifest_version": 2
+}
