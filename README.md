@@ -9,7 +9,7 @@ For example, a severity 1 issue might appear as red, a story as green, a chore a
 
 
 Here is a sample output with some made up issues in a test repo and real issues from this repo.
-![Sample dashboard](https://github.com/doinaklinger/agile-colours/blob/master/images/sampleDashboard.pngg)
+![Sample dashboard](https://github.com/doinaklinger/agile-colours/blob/master/images/sampleDashboard.png)
 
 ## Install
 
