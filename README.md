@@ -8,34 +8,30 @@ You can use this plugin to add colour coding based on your labels.
 For example, a severity 1 issue might appear as red, a story as green, a chore as yellow.
 
 
-Here is a sample output
+Here is a sample output with some made up issues in a test repo and real issues from this repo.
+![Sample dashboard](/images/2019/11/sampleDashboard.png)
 
 ## Install
 
-Choose the URL for which you want the plugin extension by clicking here.
-Go here and customise your colour coding.
+Choose the URL for which you want the plugin extension by clicking [here](https://github.com/doinaklinger/agile-colours/blob/master/manifest.json#L15).
+Go[here]( https://github.com/doinaklinger/agile-colours/blob/master/content.js#L1) and customise your colour coding.
+
 Ready to run it?
 Go to chrome://extensions/ and enable developer mode (toggle on the right hand side).
 
+
 Click on the **Load unpacked** and select this repo. The new extension
 **Agile and colours** should be available.
-Navigate to a URL that contains github.ibm.com such as http://ibmurl.hursley.ibm.com/OPDE.
-Any runtime problems with this extension will be visible on the extension tile at chrome://extensions/
 
+Navigate to a URL that contains github.com.
 
-The new browser extension, _Coloured Zenboard_ [](/images/2019/10/funnel_colours32.png) should be visible.
+The new browser extension, _Agile and Colours_ [](/images/2019/10/funnel_colours32.png) should be visible.
 Click on it and the one drop down option in the menu to apply colours.
 
 
 
 ## What it does
-This Chrome browser extension becomes active for URL starting with github.ibm.com and applies colours to the various Zenhub cards that are visible on the screen based on the labels they have and the rules coded here.
-
-The current colouring rules are contained in the file content.js:
-- issues labeled `GREEN`, `RCA-improvement`, `story`, or are from the `appconnect-planning` repository, get a lightgreen background colour.
-- issues labeled `chore`, `enhancement`, `usability` or `bug` get a lightyellow colour.
-- issues labeled `PINK`, `PRODUCTION ISSUE`, `PIPELINE BREAK`, `BUILD BREAK`, or are from the `appconnect-support`, `appconnect-integration-test` or `hip-ops-incidents` repositories, get a light red background colour.
-
+This Chrome browser extension becomes active for URL starting with github.com and applies colours to the various Zenhub cards that are visible on the screen based on the labels they have and the rules coded here.
 
 
 ## Gotchas
