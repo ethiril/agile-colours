@@ -4,12 +4,12 @@ var defaultColourRules = [
     labels: ['story', 'enhancement']
   },
   {
-    colour: 'pink',
+    colour: 'lightcoral',
     labels: ['bug','Critical']
   },
   {
-     colour: 'lightcoral',
-     labels: ['chore', 'documentation']
+     colour: 'lightyellow',
+     labels: ['chore', 'documentation', 'question']
   }
 ]
 const defaultSummaryRules = {
