@@ -1,15 +1,24 @@
-# Funnel colours browser extension
+# Agile in colours browser extension
 Browser extension for adding colours to a  Zenhub dashboards to help with priorities.
 
 ## Why use the plugin
+This plugin helps to visualise multiple issues from different repositories and give them a colour coding of your choosing to make it easy to understand at a glance different threads of work.
+Typically, you have a number of github repos with issues and labels to represent different categories of work, different severities or priorities or other characteristics. You might already use Zenhub (https://www.zenhub.com/) for project management and have built a board.
+You can use this plugin to add colour coding based on your labels.
+For example, a severity 1 issue might appear as red, a story as green, a chore as yellow.
+
 
 Here is a sample output
 
 ## Install
+
+Choose the URL for which you want the plugin extension by clicking here.
+Go here and customise your colour coding.
+Ready to run it?
 Go to chrome://extensions/ and enable developer mode (toggle on the right hand side).
 
 Click on the **Load unpacked** and select this repo. The new extension
-**Coloured Zenboard** should be available.
+**Agile and colours** should be available.
 Navigate to a URL that contains github.ibm.com such as http://ibmurl.hursley.ibm.com/OPDE.
 Any runtime problems with this extension will be visible on the extension tile at chrome://extensions/
 
