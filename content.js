@@ -1,32 +1,22 @@
 var defaultColourRules = [
   {
     colour: 'lightgreen',
-    labels: ['Story', 'appconnect-planning','story', 'GREEN', 'epic']
+    labels: ['story', 'enhancement']
   },
   {
     colour: 'pink',
-    labels: ['PRODUCTION ISSUE', 'PIPELINE BREAK','Critical',
-      'appconnect-support','hip-ops-incidents',
-      'appconnect-integration-test','BUILD BREAK']
+    labels: ['bug','Critical']
   },
   {
      colour: 'lightyellow',
-     labels: ['chore', 'enhancement', 'usability', 'bug']
-  },
-  {
-    colour: 'lightblue',
-    labels: ['rca-improvement', 'RCA-improvement', 'RCA', 'rca']
+     labels: ['chore', 'documentation']
   }
 ]
 const defaultSummaryRules = {
   // labels
-  'story': 'STORY: ',
-  'rca-improvement': 'RCA: ',
-  // repos
-  'appconnect-planning': 'EPIC: ',
-  'appconnect-support': 'SUPPORT: ',
-  'hip-ops-incidents': 'HOI: ',
-  'appconnect-integration-test': 'IT: ',
+  'enhancement': 'Wish: ',
+  'bug': 'BUG: ',
+  'documentation': 'DOCS:'
 }
 
 
