@@ -8,7 +8,7 @@ var defaultColourRules = [
     labels: ['bug','Critical']
   },
   {
-     colour: 'lightyellow',
+     colour: 'lightcoral',
      labels: ['chore', 'documentation']
   }
 ]
