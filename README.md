@@ -3,7 +3,9 @@ Browser extension for adding colours to a  Zenhub dashboards to help with priori
 
 ## Why use the plugin
 This plugin helps to visualise multiple issues from different repositories and give them a colour coding of your choosing to make it easy to understand at a glance different threads of work.
+
 Typically, you have a number of github repos with issues and labels to represent different categories of work, different severities or priorities or other characteristics. You might already use Zenhub (https://www.zenhub.com/) for project management and have built a board.
+
 You can use this plugin to add colour coding based on your labels.
 For example, a severity 1 issue might appear as red, a story as green, a chore as yellow.
 
