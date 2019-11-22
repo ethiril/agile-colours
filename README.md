@@ -47,16 +47,6 @@ When the user interacts with the Zenhub dashboard, scrolling, moving issues in t
 
 You can stop the colouring by disabling the plugin or reloading your browser.
 
-# Removing Zenhub Sidebar
-
-Install this browser extension for Chrome - https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/
-
-Install this style - https://userstyles.org/styles/157717/zenhub-kill-sidebar
-
-Press `Stylus` button on toolbar -> `Manage` -> `Zenhub Kill Sidebar` -> clone at bottom of page -> change URL to github.ibm.com -> `Save` on top of left sidebar
-
-This should automatically apply! To re-enable, press `Stylus` button on toolbar and untick the box
-
 
 ## Provenance
 This has been developed starting from this sample https://developer.chrome.com/extensions/getstarted
