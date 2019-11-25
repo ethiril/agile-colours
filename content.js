@@ -12,16 +12,9 @@ var defaultColourRules = [
      labels: ['chore', 'documentation', 'question']
   }
 ]
-const defaultSummaryRules = {
-  // labels
-  'enhancement': 'Wish: ',
-  'bug': 'BUG: ',
-  'documentation': 'DOCS:'
-}
 
 
 var colourRules = defaultColourRules
-var summaryRules = defaultSummaryRules
 
 function repaint() {
   var cards = document.getElementsByClassName('zhc-issue-card');
@@ -37,31 +30,9 @@ function repaint() {
       var spans = card.getElementsByTagName('span');
       for (var j= 0; j< spans.length; j++) {
         paintCard(spans[j], card, !data.toggles.colourissue);
-        if (data.toggles.issuesummary) {
-          summariseCard(spans[j], card);
-        }
       }
     }
   });
-}
-function summariseCard(span, card) {
-  const maxLength = 150;
-
-
-  const text = card.getElementsByClassName('zhc-issue-card__issue-title')[0].textContent;
-  const alreadyHasPrefix = Object.keys(summaryRules).some(matchString => {
-    return text.indexOf(summaryRules[matchString]) === 0
-  })
-  if (alreadyHasPrefix) {
-    return
-  }
-  let prefix = summaryRules[span.textContent.toLowerCase()] || "";
-
-  let newText = prefix + text.substring(0, maxLength);
-  if (maxLength < text.length) {
-    newText = newText + '...';
-  }
-  card.getElementsByClassName('zhc-issue-card__issue-title')[0].textContent = newText;
 }
 
 function paintCard(span, card, reset) {
