@@ -1,4 +1,4 @@
-# Agile in colours browser extension
+# Agile in colours Chrome extension
 Browser extension for adding colours to a  Zenhub dashboards to help with priorities.
 
 ## Why use the plugin
