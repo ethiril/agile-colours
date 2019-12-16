@@ -16,7 +16,7 @@ var defaultColourRules = [
      labels: ['on-prem MVP']
   },
   {
-     colour: '#6376b8',
+     colour: '#918fff',
      labels: ['Epic']
   },
   { 
@@ -24,7 +24,7 @@ var defaultColourRules = [
      labels: ['spike']
   },
   {
-     colour: '#ed594e',
+     colour: '#ffa94d',
      labels: ['C:Doorperson']
   }
 ]
