@@ -1,5 +1,5 @@
-# Agile in colours Chrome extension
-Browser extension for adding colours to a  Zenhub dashboards to help with priorities.
+# "Agile in colours" Chrome extension
+Browser extension for adding colours to a  Zenhub dashboards to help see at a glance different work priorities.
 
 ## Why use the plugin
 This plugin helps to visualise multiple issues from different repositories and give them a colour coding of your choosing to make it easy to understand at a glance different threads of work.
@@ -16,6 +16,7 @@ Here is a sample output with some made up issues in a test repo and real issues 
 ## Install
 
 Choose the URL for which you want the plugin extension by clicking [here](https://github.com/doinaklinger/agile-colours/blob/master/manifest.json#L15).
+
 Go[here]( https://github.com/doinaklinger/agile-colours/blob/master/content.js#L1) and customise your colour coding.
 
 Ready to run it?
