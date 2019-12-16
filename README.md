@@ -17,7 +17,7 @@ Here is a sample output with some made up issues in a test repo and real issues 
 
 Choose the URL for which you want the plugin extension by clicking [here](https://github.com/doinaklinger/agile-colours/blob/master/manifest.json#L15).
 
-Go[here]( https://github.com/doinaklinger/agile-colours/blob/master/content.js#L1) and customise your colour coding.
+Go [here]( https://github.com/doinaklinger/agile-colours/blob/master/content.js#L1) and customise your colour coding.
 
 Ready to run it?
 Go to chrome://extensions/ and enable developer mode (toggle on the right hand side).
