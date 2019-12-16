@@ -24,8 +24,12 @@ var defaultColourRules = [
      labels: ['spike']
   },
   {
-     colour: '#ffa94d',
+     colour: '#ade1ff',
      labels: ['C:Doorperson']
+  },
+  {
+     colour: '#ffa557',
+     labels: ['Certification-Model V2']
   }
 ]
 
