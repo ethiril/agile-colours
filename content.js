@@ -8,7 +8,7 @@ var defaultColourRules = [
     labels: ['Sev2']
   },
   {
-     colour: '#d6bc54',
+     colour: '#e8c764',
      labels: ['Sev3']
   },
   {
@@ -24,7 +24,7 @@ var defaultColourRules = [
      labels: ['spike']
   },
   {
-     colour: '#eda455',
+     colour: '#ed594e',
      labels: ['C:Doorperson']
   }
 ]
