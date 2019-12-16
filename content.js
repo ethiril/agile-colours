@@ -1,15 +1,31 @@
 var defaultColourRules = [
   {
-    colour: 'lightgreen',
-    labels: ['story', 'enhancement']
+    colour: '#e83f74',
+    labels: ['Sev1']
   },
   {
-    colour: 'lightcoral',
-    labels: ['bug','Critical']
+    colour: '#4d94db',
+    labels: ['Sev2']
   },
   {
-     colour: 'lightyellow',
-     labels: ['chore', 'documentation', 'question']
+     colour: '#d6bc54',
+     labels: ['Sev3']
+  },
+  {
+     colour: '#6abf65',
+     labels: ['on-prem MVP']
+  },
+  {
+     colour: '#6376b8',
+     labels: ['Epic']
+  },
+  { 
+     colour: '#ffd1dd',
+     labels: ['spike']
+  },
+  {
+     colour: '#eda455',
+     labels: ['C:Doorperson']
   }
 ]
 
